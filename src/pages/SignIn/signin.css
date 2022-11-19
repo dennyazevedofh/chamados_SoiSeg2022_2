@@ -1,0 +1,75 @@
+:root {
+	--fundoPage: #121212;
+	--mainFundo: #181c2e;
+	--formFundo: #eaeaec;
+	--campoFundo: #fff;
+	--letraPadrao: #000;
+}
+
+.container-center {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--fundoPage);
+}
+
+.login {
+	background-color: var(--formFundo);
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.login-area {
+	display: flex;
+	justify-content: center;
+	background-color: var(--mainFundo);
+	width: 100%;
+}
+
+.login-area img {
+	padding: 20px;
+	width: 170px;
+	height: 130px;
+}
+
+form {
+	margin-top: 1.5em;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
+
+form h1 {
+	text-align: center;
+	margin-bottom: 0.5em;
+	color: --var(--mainFundo);
+}
+
+.login input {
+	margin-bottom: 0.5em;
+	height: 35px;
+	border: 0;
+	border-radius: 7px;
+	padding: 10px;
+	font-size: 15px;
+	background-color: var(--campoFundo);
+}
+
+form button {
+	height: 35px;
+	border: 0;
+	border-radius: 7px;
+	background-color: var(--mainFundo);
+	color: var(--campoFundo);
+	font-size: 1.3em;
+}
+
+.login a {
+	margin: 1.5em 0;
+	color: var(--letraPadrao);
+	cursor: pointer;
+}
