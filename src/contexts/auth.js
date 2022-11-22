@@ -6,7 +6,7 @@ export const AuthContext = createContext({});
 function AuthProvider({ children }) {
 	const [user, setUser] = useState(null);
 	const [loading, setLoading] = useState(true);
-	const[(loadingAuth, setLoadingAuth)] = useState(false);
+	const [loadingAuth, setLoadingAuth] = useState(false);
 
 	useEffect(() => {
 		function loadStorage() {
